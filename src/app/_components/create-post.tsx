@@ -38,6 +38,7 @@ export function CreatePost() {
       >
         {createPost.isLoading ? "Submitting..." : "Submit"}
       </button>
+      <div>ok</div>
     </form>
   );
 }
